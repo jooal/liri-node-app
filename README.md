@@ -42,6 +42,9 @@ Must have node.js and npm packages installed:
 
 [DotEnv](https://www.npmjs.com/package/dotenv)
 
+### Licensing
+This project is licensed under the MIT License.
+
 
 
 
