@@ -1,0 +1,3 @@
+Movie Search: 
+Logged on:Sun Oct 07 2018 13:00:49 GMT-0400 (EDT)/usr/local/bin/node,/Users/alexjoo/Desktop/liri-node-app/liri.js,movie-this,mr.nobody
+Data output:
