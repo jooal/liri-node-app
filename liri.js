@@ -83,7 +83,7 @@ function spotifySong (searchValue) {
     }
       });
 
-      fs.writeFile("log.txt", "Movie Search: " + "\nLogged on:" + Date() + process.argv + "\nData output:", function(error) {
+      fs.writeFile("log.txt", "Spotify Search: " + "\nLogged on:" + Date() + process.argv + "\nData output:", function(error) {
           if (error) {
               console.log(error);
           }
@@ -139,7 +139,15 @@ function spotifySong (searchValue) {
                 console.log("Date: " + bandInfo.date.format("MM/DD/YY"));
             }
         });
-    }
+        fs.writeFile("log.txt", "Concert Search: " + "\nLogged on:" + Date() + process.argv + "\nData output:", function(error) {
+            if (error) {
+                console.log(error);
+            }
+            else {
+                console.log("log.txt updated!");
+            }
+  
+    });
 
     switch (command) {
         case "concert-this":
