@@ -45,9 +45,10 @@ Must have node.js and npm packages installed:
 ### Licensing
 This project is licensed under the MIT License.
 
+### Example
+node liri.js movie-this Inception
 
-
-
+![alt text](http://url/movie-this.png)
 
 
 
